@@ -1,11 +1,18 @@
-# EdgeDetectorApp OpenCV (C++), OpenGL ES, and Android are used to detect camera edges in real time.
+# EdgeDetectorApp  
+Android, OpenCV (C++), and OpenGL ES-based real-time camera edge detection.
 
-## Features: OpenGL ES 2.0 rendering; JNI/OpenCV for canny edge detection; CameraX for camera feed  
+## Features  
+- Camera feed with CameraX  
+- JNI/OpenCV-based Canny edge detection  
+- OpenGL ES 2.0 rendering  
 
-## Configuration Step 1: **OpenCV Setup** - Import the `opencv` module after downloading the [OpenCV Android SDK] (https://opencv.org/releases/).  
-2. **NDK**: Open Android Studio and install the NDK.  
-3. Build and synchronise Gradle.  
+## Setup  
+1. **OpenCV Setup**:  
+   - Download [OpenCV Android SDK](https://opencv.org/releases/) and add the `opencv` module.  
+2. **NDK**: Add NDK in Android Studio.
+3. Please sync Gradle and build.
 
-## Architecture- **Java**: UI, camera management.  
-- **C++/JNI**: Image processing with OpenCV.  
-- **OpenGL**: pipeline for rendering.  
+## Architecture
+- **Java**: Handling the camera, user interface.
+- **C++/JNI**: OpenCV image processing.
+- **OpenGL**: The rendering pipeline.
